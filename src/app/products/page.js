@@ -9,7 +9,7 @@ export default async function Products() {
     const products = await getProducts()
     return (
         <>
-                <h1 style={{fontSize:"40px",color:"yellowgreen"}}>All products</h1>
+                <h1 className="font-bold text-pink-600 text-4xl">All Products</h1>
             
             <main className="container mx-auto flex min-h-screen flex-wrap items-center justify-around p-3 my-5 gap-2">
                 {

@@ -4,7 +4,7 @@ export default async function User() {
     const users = await getUsers()
     return (
         <>
-            <h1 style={{ fontSize: "40px", color: "blue" }}>All users listing</h1>
+            <h1 className="font-bold text-rose-800 text-4xl">All Users </h1>
             <main className="container mx-auto flex min-h-screen flex-wrap items-center justify-around p-3 my-5 gap-10">
                 {
                     users.map((user) => (
