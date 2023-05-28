@@ -11,7 +11,8 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="
+              https://www.definicionabc.com/wp-content/uploads/tecnologia/App-Store.jpg"
               className="h-8 mr-3"
               alt="Flowbite Logo"
             />
